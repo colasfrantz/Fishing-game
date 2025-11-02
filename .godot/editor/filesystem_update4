@@ -1,0 +1,22 @@
+res://Fishes.tscn
+res://FishData.cs
+res://FishInventory.cs
+res://main_menu.tscn
+res://FishingGame.tscn
+res://WinningScene.tscn
+res://FishDataBase.cs
+res://Fishes.cs
+res://FishingGame.cs
+res://MainMenu.cs
+res://WinningScene.cs
+res://Inventory/Fishes.tscn
+res://Main menu/main_menu.tscn
+res://Game/FishingGame.tscn
+res://Winning/WinningScene.tscn
+res://Main menu/MainMenu.cs
+res://FishData/FishData.cs
+res://Winning/WinningScene.cs
+res://Inventory/Fishes.cs
+res://Inventory/FishInventory.cs
+res://Game/FishingGame.cs
+res://FishData/FishDataBase.cs

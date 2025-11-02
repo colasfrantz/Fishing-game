@@ -1,0 +1,22 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1762125399
+MainMenu.cs::CSharpScript::-1::1762125127::0::1::::<>Control<>::
+main_menu.tscn::PackedScene::474457399962308919::1762125276::0::1::::<><>::res://MainMenu.cs
+::res://Assets/::1762125392
+Sunny Pixels.png::CompressedTexture2D::8406257073810478090::1762121536::1762121601::1::::<><>::
+::res://Assets/Sprites/::1762125399
+Atlantic Cod.tres::Resource/FishData::3025954061452823830::1762125326::0::1::::<><>::res://FishData/FishData.cs
+Carp.tres::Resource/FishData::2270929925626131387::1762124982::0::1::::<><>::res://FishData/FishData.cs
+::res://FishData/::1762124982
+FishData.cs::CSharpScript::-1::1762124804::0::1::::FishData<>Resource<>::
+FishDataBase.cs::CSharpScript::-1::1762124756::0::1::::<><>::
+::res://Game/::1762125277
+FishingGame.cs::CSharpScript::-1::1762125205::0::1::::<>Control<>::
+FishingGame.tscn::PackedScene::8817188810047721044::1762125277::0::1::::<><>::res://Game/FishingGame.cs
+::res://Inventory/::1762125277
+Fishes.cs::CSharpScript::-1::1762121536::0::1::::<>Control<>::
+Fishes.tscn::PackedScene::7977906927975883088::1762125277::0::1::::<><>::res://Inventory/Fishes.cs
+FishInventory.cs::CSharpScript::-1::1762125011::0::1::::<>Node<>::
+::res://Winning/::1762125277
+WinningScene.cs::CSharpScript::-1::1762125275::0::1::::<>Control<>::
+WinningScene.tscn::PackedScene::2882488538433914292::1762125277::0::1::::<><>::res://Winning/WinningScene.cs
