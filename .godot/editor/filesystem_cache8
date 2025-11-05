@@ -1,15 +1,25 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1762125399
-MainMenu.cs::CSharpScript::-1::1762125127::0::1::::<>Control<>::
-main_menu.tscn::PackedScene::474457399962308919::1762125276::0::1::::<><>::res://MainMenu.cs
-::res://Assets/::1762125392
+::res://::1762373155
+MainMenu.cs::CSharpScript::-1::1762375638::0::1::::<>Control<>::
+main_menu.tscn::PackedScene::474457399962308919::1762375675::0::1::::<><>::res://MainMenu.cs
+::res://Assets/::1762292389
+map.png::CompressedTexture2D::7174131681850238568::1762292389::1762292389::1::::<><>::
 Sunny Pixels.png::CompressedTexture2D::8406257073810478090::1762121536::1762121601::1::::<><>::
-::res://Assets/Sprites/::1762125399
-Atlantic Cod.tres::Resource/FishData::3025954061452823830::1762125326::0::1::::<><>::res://FishData/FishData.cs
-Carp.tres::Resource/FishData::2270929925626131387::1762124982::0::1::::<><>::res://FishData/FishData.cs
-::res://FishData/::1762124982
+::res://Assets/Sprites/::1762291840
+Atlantic Cod.tres::Resource/FishData::3025954061452823830::1762291840::0::1::::<><>::res://FishData/FishData.cs
+Atlantic Mahi Mahi.tres::Resource/FishData::547345410411632340::1762125479::0::1::::<><>::res://FishData/FishData.cs
+Atlantic Salmon.tres::Resource/FishData::2270929925626131387::1762124982::0::1::::<><>::res://FishData/FishData.cs
+Atlantic Sturgeon.tres::Resource/FishData::3132918121057163887::1762125462::0::1::::<><>::res://FishData/FishData.cs
+Bass.tres::Resource/FishData::4072563959543267276::1762125451::0::1::::<><>::res://FishData/FishData.cs
+Blue Catfish.tres::Resource/FishData::4018791244336422132::1762125434::0::1::::<><>::res://FishData/FishData.cs
+Clownfish.tres::Resource/FishData::4039276939875358408::1762125444::0::1::::<><>::res://FishData/FishData.cs
+Golden Carp.tres::Resource/FishData::1119861728730458864::1762125423::0::1::::<><>::res://FishData/FishData.cs
+Red Tuna.tres::Resource/FishData::1331191195066708907::1762125493::0::1::::<><>::res://FishData/FishData.cs
+The Leviathan.tres::Resource/FishData::7552254405412023000::1762125506::0::1::::<><>::res://FishData/FishData.cs
+Trout.tres::Resource/FishData::5551898107870917243::1762125469::0::1::::<><>::res://FishData/FishData.cs
+::res://FishData/::1762125962
 FishData.cs::CSharpScript::-1::1762124804::0::1::::FishData<>Resource<>::
-FishDataBase.cs::CSharpScript::-1::1762124756::0::1::::<><>::
+FishDataBase.cs::CSharpScript::-1::1762125962::0::1::::<><>::
 ::res://Game/::1762125277
 FishingGame.cs::CSharpScript::-1::1762125205::0::1::::<>Control<>::
 FishingGame.tscn::PackedScene::8817188810047721044::1762125277::0::1::::<><>::res://Game/FishingGame.cs
@@ -17,6 +27,9 @@ FishingGame.tscn::PackedScene::8817188810047721044::1762125277::0::1::::<><>::re
 Fishes.cs::CSharpScript::-1::1762121536::0::1::::<>Control<>::
 Fishes.tscn::PackedScene::7977906927975883088::1762125277::0::1::::<><>::res://Inventory/Fishes.cs
 FishInventory.cs::CSharpScript::-1::1762125011::0::1::::<>Node<>::
+::res://Map/::1762292692
+MapScene.tscn::PackedScene::4315744716850112220::1762292692::0::1::::<><>::
+MapScript.cs::CSharpScript::-1::1762376072::0::1::::<><>::
 ::res://Winning/::1762125277
-WinningScene.cs::CSharpScript::-1::1762125275::0::1::::<>Control<>::
+WinningScene.cs::CSharpScript::-1::1762375675::0::1::::<>Control<>::
 WinningScene.tscn::PackedScene::2882488538433914292::1762125277::0::1::::<><>::res://Winning/WinningScene.cs

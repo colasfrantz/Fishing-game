@@ -18,13 +18,13 @@ public partial class WinningScene : Control
 	
 	private void OnMenuPressed()
 	{
-		GD.Print("Menu");
+		GD.Print("Go back to the Menu !");
 		GetTree().ChangeSceneToFile("res://main_menu.tscn");
 	}
 	
 	private void OnFishesPressed()
 	{
-		GD.Print("Fishes");
+		GD.Print("Let's see our Fishes !");
 		GetTree().ChangeSceneToFile("res://Inventory/Fishes.tscn");
 	}
 	

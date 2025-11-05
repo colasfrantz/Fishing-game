@@ -15,3 +15,4 @@ C:\Users\nicof\Documents\Fishing-game\.godot\mono\temp\obj\Debug\refint\Sunny - 
 C:\Users\nicof\Documents\Fishing-game\.godot\mono\temp\obj\Debug\Sunny - An expected journey.pdb
 C:\Users\nicof\Documents\Fishing-game\.godot\mono\temp\obj\Debug\Sunny - An expected journey.genruntimeconfig.cache
 C:\Users\nicof\Documents\Fishing-game\.godot\mono\temp\obj\Debug\ref\Sunny - An expected journey.dll
+C:\Users\nicof\Documents\Fishing-game\.godot\mono\temp\obj\Debug\Sunny - An expected journey.sourcelink.json
