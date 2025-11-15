@@ -7,10 +7,10 @@ public static class FishDataBase
 	public static List<FishData> AllFishes = new List<FishData>()
 	{
 		new FishData("Atlantic Cod", "Cod", 40f, 1.25f, "Brown", FishRarity.Common ,"Gregarious"),
-		new FishData("Atlantic Salmon", "Salmon", 0.80f, 2f, "Grey", FishRarity.Common ,"calm"),
-		new FishData("Golden Carp", "Carp", 45f, 2.3f, "Golden",  FishRarity.Common,"Calm"),
-		new FishData("Blue Catfish", "Catfish", 40f, 1.4f, "Blue",  FishRarity.Common,"quiet"),
-		new FishData("Clownfish", "Clownfish", 0.2f, 0.008f, "Orange and white",  FishRarity.Common,"friendly"),
+		new FishData("Atlantic Salmon", "Salmon", 0.80f, 2f, "Grey", FishRarity.Common ,"Calm"),
+		new FishData("Golden Carp", "Carp", 45f, 2.3f, "Golden",  FishRarity.Common,"Rapid"),
+		new FishData("Blue Catfish", "Catfish", 40f, 1.4f, "Blue",  FishRarity.Common,"Quiet"),
+		new FishData("Clownfish", "Clownfish", 0.2f, 0.008f, "Orange and white",  FishRarity.Common,"Friendly"),
 		new FishData("Bass", "Bass", 60f, 5.1f, "Dark Gray", FishRarity.Rare, "Aggressive"),
 		new FishData("Atlantic Sturgeon", "Surgeon", 140f, 2.0f, "Light Brown", FishRarity.Rare, "Sage"),
 		new FishData("Trout", "Trout", 55f, 3.0f, "Rainbow", FishRarity.Rare, "Sage"),
@@ -31,10 +31,10 @@ public static class FishDataBase
 		{FishRarity.Epic, 0.06f},
 		{FishRarity.Legendary, 0.02f}
 	};
-	
+
 	public static FishData GetRandomFishByRarity()
 	{
-		double roll = rng.NextDouble();
+		double roll = rng.NextDouble(); 
 		float cumulative = 0f;
 		FishRarity chosenRarity = FishRarity.Common;
 		
@@ -54,9 +54,39 @@ public static class FishDataBase
 			return AllFishes[0];
 		}
 		
+		/*var tmp = candidates;
+		// la
+		switch (PlayerData.Instance.CurrentLocation)
+		{
+			case "Lilie's" : 
+				tmp = candidates.FindAll(f => (f.Temperament == "Quiet" || f.Temperament == "Calm" || f.Temperament == "Friendly" || f.Temperament == "Gregarious" || f.Temperament == "Sage"));
+				break;
+			case "River" :
+				tmp = candidates.FindAll(f => (f.Temperament == "Rapid" || f.Temperament == "Furious" || f.Temperament == "Aggressive" || f.Temperament == "Strong"));
+				break;
+			case "Pako Beach" :
+				tmp = candidates;
+				break;
+			case "Lake" :
+				//tmp = candidates.FindAll(...);
+				tmp = candidates;
+				break;
+			default :
+				break;
+		
+		foreach(FishData f in tmp)
+		{
+			GD.Print($"{f.Species} ");
+			//error or list check
+		
+		candidates = tmp;
+		*/
+		
+		
 		return candidates[rng.Next(candidates.Count)];
 	}
 }
+
 
 public static class FishDifficulty
 {

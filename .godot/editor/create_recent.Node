@@ -1,6 +1,7 @@
+RichTextLabel
+Button
 Node
 Label
-Button
 ColorRect
 PanelContainer
 MenuBar
