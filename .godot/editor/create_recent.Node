@@ -1,11 +1,14 @@
+Node
+TextureRect
+CollisionShape2D
+Area2D
+Control
+GridContainer
 RichTextLabel
 Button
-Node
 Label
 ColorRect
 PanelContainer
 MenuBar
-Control
 Container
 CanvasModulate
-CenterContainer

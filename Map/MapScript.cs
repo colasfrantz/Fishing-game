@@ -51,10 +51,10 @@ public partial class MapScript : Control
 		switch ( PlayerData.Instance.CurrentLocation)
 		{
 			case "Lilie's" : 
-				_description.Text = "desc for lilies";
+				_description.Text = "At Lilie's, you will find a peaceful area where friendly fishes like to rest.";
 				break;
 			case "River" :
-				_description.Text = "desc for River";
+				_description.Text = "Only wild and rapid fishes live in the rivers !";
 				break;
 			case "Pako Beach" :
 				_description.Text = "desc for Pako";

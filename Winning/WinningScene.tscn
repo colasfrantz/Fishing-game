@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://bhckfu30i45qu"]
 
-[ext_resource type="Script" path="res://Winning/WinningScene.cs" id="1_xwdyg"]
+[ext_resource type="Script" uid="uid://cesuhl8uc8x8j" path="res://Winning/WinningScene.cs" id="1_xwdyg"]
 
 [node name="WinningScene" type="Control"]
 layout_mode = 3
@@ -22,6 +22,6 @@ offset_bottom = 717.0
 layout_mode = 2
 text = "Menu"
 
-[node name="Fishes" type="Button" parent="VBoxContainer"]
+[node name="Inventory" type="Button" parent="VBoxContainer"]
 layout_mode = 2
-text = "Fishes"
+text = "Inventory"

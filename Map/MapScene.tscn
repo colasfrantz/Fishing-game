@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://b2qtxj2hdwlbo"]
 
 [ext_resource type="Script" uid="uid://bx1cwovpy25ib" path="res://Map/MapScript.cs" id="1_rk3gg"]
-[ext_resource type="Script" uid="uid://bn0hux37wc0rg" path="res://Player/PlayerData.cs" id="2_ru0kw"]
+[ext_resource type="Script" uid="uid://bn0hux37wc0rg" path="res://PlayerData.cs" id="2_ru0kw"]
 
 [node name="MapScene" type="Control"]
 layout_mode = 3

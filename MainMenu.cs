@@ -11,7 +11,7 @@ public partial class MainMenu : Control
 	public override void _Ready()
 	{
 		_playButton = GetNode<Button>("VBoxContainer/PlayButton");
-		_fishesButton = GetNode<Button>("VBoxContainer/Fishes");
+		_fishesButton = GetNode<Button>("VBoxContainer/Inventory");
 		_mapButton = GetNode<Button>("VBoxContainer/Map");
 		
 		_playButton.Pressed += OnPlayPressed;
@@ -35,6 +35,6 @@ public partial class MainMenu : Control
 	private void OnFishesPressed()
 	{
 		GD.Print("Let's see our Fishes !");
-		GetTree().ChangeSceneToFile("res://Inventory/Fishes.tscn");
+		GetTree().ChangeSceneToFile("res://Inventory/Inventory.tscn");
 	}
 }

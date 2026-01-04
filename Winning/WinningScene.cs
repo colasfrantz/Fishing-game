@@ -10,7 +10,7 @@ public partial class WinningScene : Control
 	public override void _Ready()
 	{
 		_menu = GetNode<Button>("VBoxContainer/Menu");
-		_fishes = GetNode<Button>("VBoxContainer/Fishes");
+		_fishes = GetNode<Button>("VBoxContainer/Inventory");
 		
 		_menu.Pressed += OnMenuPressed;
 		_fishes.Pressed += OnFishesPressed;
@@ -25,7 +25,7 @@ public partial class WinningScene : Control
 	private void OnFishesPressed()
 	{
 		GD.Print("Let's see our Fishes !");
-		GetTree().ChangeSceneToFile("res://Inventory/Fishes.tscn");
+		GetTree().ChangeSceneToFile("res://Inventory/Inventory.tscn");
 	}
 	
 	
