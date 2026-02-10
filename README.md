@@ -1,0 +1,1 @@
+this is a little project of video game developping I am doing on my own by following tutorials and what I learned so far. I hope you guys can see how personal to me it is and enjoy it as much as I do enjoy it.
