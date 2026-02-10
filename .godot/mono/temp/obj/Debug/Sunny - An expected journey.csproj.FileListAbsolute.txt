@@ -34,3 +34,21 @@ C:\Users\Frantz\Fishing-game\.godot\mono\temp\obj\Debug\refint\Sunny - An expect
 C:\Users\Frantz\Fishing-game\.godot\mono\temp\obj\Debug\Sunny - An expected journey.pdb
 C:\Users\Frantz\Fishing-game\.godot\mono\temp\obj\Debug\Sunny - An expected journey.genruntimeconfig.cache
 C:\Users\Frantz\Fishing-game\.godot\mono\temp\obj\Debug\ref\Sunny - An expected journey.dll
+C:\Users\Frantz\Desktop\Pers. Projects\Fishing-game\.godot\mono\temp\bin\Debug\Sunny - An expected journey.deps.json
+C:\Users\Frantz\Desktop\Pers. Projects\Fishing-game\.godot\mono\temp\bin\Debug\Sunny - An expected journey.runtimeconfig.json
+C:\Users\Frantz\Desktop\Pers. Projects\Fishing-game\.godot\mono\temp\bin\Debug\Sunny - An expected journey.dll
+C:\Users\Frantz\Desktop\Pers. Projects\Fishing-game\.godot\mono\temp\bin\Debug\Sunny - An expected journey.pdb
+C:\Users\Frantz\Desktop\Pers. Projects\Fishing-game\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\Users\Frantz\Desktop\Pers. Projects\Fishing-game\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\Users\Frantz\Desktop\Pers. Projects\Fishing-game\.godot\mono\temp\obj\Debug\Sunny - An expected journey.csproj.AssemblyReference.cache
+C:\Users\Frantz\Desktop\Pers. Projects\Fishing-game\.godot\mono\temp\obj\Debug\Sunny - An expected journey.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Frantz\Desktop\Pers. Projects\Fishing-game\.godot\mono\temp\obj\Debug\Sunny - An expected journey.AssemblyInfoInputs.cache
+C:\Users\Frantz\Desktop\Pers. Projects\Fishing-game\.godot\mono\temp\obj\Debug\Sunny - An expected journey.AssemblyInfo.cs
+C:\Users\Frantz\Desktop\Pers. Projects\Fishing-game\.godot\mono\temp\obj\Debug\Sunny - An expected journey.csproj.CoreCompileInputs.cache
+C:\Users\Frantz\Desktop\Pers. Projects\Fishing-game\.godot\mono\temp\obj\Debug\Sunny - An expected journey.sourcelink.json
+C:\Users\Frantz\Desktop\Pers. Projects\Fishing-game\.godot\mono\temp\obj\Debug\Sunny - .96F1298D.Up2Date
+C:\Users\Frantz\Desktop\Pers. Projects\Fishing-game\.godot\mono\temp\obj\Debug\Sunny - An expected journey.dll
+C:\Users\Frantz\Desktop\Pers. Projects\Fishing-game\.godot\mono\temp\obj\Debug\refint\Sunny - An expected journey.dll
+C:\Users\Frantz\Desktop\Pers. Projects\Fishing-game\.godot\mono\temp\obj\Debug\Sunny - An expected journey.pdb
+C:\Users\Frantz\Desktop\Pers. Projects\Fishing-game\.godot\mono\temp\obj\Debug\Sunny - An expected journey.genruntimeconfig.cache
+C:\Users\Frantz\Desktop\Pers. Projects\Fishing-game\.godot\mono\temp\obj\Debug\ref\Sunny - An expected journey.dll

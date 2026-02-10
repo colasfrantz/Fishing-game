@@ -14,6 +14,10 @@ config/name="Sunny : An expected journey"
 run/main_scene="res://main_menu.tscn"
 config/features=PackedStringArray("4.5", "C#", "Forward Plus")
 
+[autoload]
+
+PlayerData="*res://PlayerData.cs"
+
 [dotnet]
 
 project/assembly_name="Sunny - An expected journey"

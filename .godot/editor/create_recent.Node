@@ -1,12 +1,12 @@
-Node
+GridContainer
+Label
 TextureRect
+Node
 CollisionShape2D
 Area2D
 Control
-GridContainer
 RichTextLabel
 Button
-Label
 ColorRect
 PanelContainer
 MenuBar

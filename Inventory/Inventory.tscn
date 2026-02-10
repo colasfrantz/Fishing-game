@@ -18,6 +18,14 @@ offset_top = 30.0
 offset_right = 150.0
 offset_bottom = 80.0
 
+[node name="MyInventory" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "My Inventory
+"
+
 [node name="Menu" type="Button" parent="VBoxContainer"]
 layout_mode = 2
 text = "Back"
+
+[node name="Grid" type="GridContainer" parent="VBoxContainer"]
+layout_mode = 2

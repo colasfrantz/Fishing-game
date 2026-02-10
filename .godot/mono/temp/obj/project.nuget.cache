@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UAD03wzv/EE=",
+  "dgSpecHash": "Tndz/ulkLbg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Frantz\\Fishing-game\\Sunny - An expected journey.csproj",
+  "projectFilePath": "C:\\Users\\Frantz\\Desktop\\Pers. Projects\\Fishing-game\\Sunny - An expected journey.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Frantz\\.nuget\\packages\\godot.sourcegenerators\\4.5.1\\godot.sourcegenerators.4.5.1.nupkg.sha512",
     "C:\\Users\\Frantz\\.nuget\\packages\\godotsharp\\4.5.1\\godotsharp.4.5.1.nupkg.sha512",
