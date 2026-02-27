@@ -1,8 +1,8 @@
+TextureRect
 GridContainer
 ScrollContainer
 VBoxContainer
 Label
-TextureRect
 Node
 CollisionShape2D
 Area2D

@@ -28,8 +28,9 @@ layout_mode = 2
 text = "Back"
 
 [node name="ScrollContainer" type="ScrollContainer" parent="VBoxContainer"]
-custom_minimum_size = Vector2(200, 200)
+custom_minimum_size = Vector2(400, 400)
 layout_mode = 2
 
 [node name="Grid" type="GridContainer" parent="VBoxContainer/ScrollContainer"]
 layout_mode = 2
+columns = 5

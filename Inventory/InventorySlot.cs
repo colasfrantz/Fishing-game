@@ -63,17 +63,18 @@ public partial class InventorySlot : TextureRect
 	{
 		var sourceSlot = data.Obj as InventorySlot;
 		
+		// On vérifie que l'objet lâché est bien un autre slot et pas nous-même
 		if (sourceSlot == null || sourceSlot == this) return;
 
-		// 1. Récupérer la liste des poissons
+		// 1. Accéder à la liste globale des poissons
 		var fishList = PlayerData.Instance.CaughtFishes;
 
-		// 2. Échanger les poissons dans la liste réelle (Persistance)
+		// 2. Échanger les poissons dans la liste réelle (pour la persistance)
 		FishData tempFish = fishList[this._index];
 		fishList[this._index] = fishList[sourceSlot._index];
 		fishList[sourceSlot._index] = tempFish;
 
-		// 3. Mettre à jour l'affichage visuel des deux slots
+		// 3. Mettre à jour visuellement les deux slots avec leurs nouveaux poissons
 		this.Setup(fishList[this._index], this._index);
 		sourceSlot.Setup(fishList[sourceSlot._index], sourceSlot._index);
 	}
