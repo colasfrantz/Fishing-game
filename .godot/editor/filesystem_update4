@@ -1,3 +1,4 @@
+res://Inventory/Inventory.tscn
 res://PlayerData.cs
 res://Map/MapScript.cs
 res://Inventory/Inventory.cs

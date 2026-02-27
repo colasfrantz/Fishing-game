@@ -1,4 +1,6 @@
 GridContainer
+ScrollContainer
+VBoxContainer
 Label
 TextureRect
 Node
@@ -10,5 +12,3 @@ Button
 ColorRect
 PanelContainer
 MenuBar
-Container
-CanvasModulate

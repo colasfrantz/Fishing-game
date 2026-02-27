@@ -63,14 +63,18 @@ public partial class InventorySlot : TextureRect
 	{
 		var sourceSlot = data.Obj as InventorySlot;
 		
-		if (sourceSlot == this) return; // On a reposé sur soi-même
+		if (sourceSlot == null || sourceSlot == this) return;
 
-		// Échange visuel des données (Swap)
-		FishData tempFish = this._fish;
-		this.Setup(sourceSlot._fish, this._index);
-		sourceSlot.Setup(tempFish, sourceSlot._index);
+		// 1. Récupérer la liste des poissons
+		var fishList = PlayerData.Instance.CaughtFishes;
 
-		// Note : Idéalement, il faudrait aussi échanger les positions dans
-		// la liste PlayerData.Instance.CaughtFishes pour que l'ordre soit sauvegardé.
+		// 2. Échanger les poissons dans la liste réelle (Persistance)
+		FishData tempFish = fishList[this._index];
+		fishList[this._index] = fishList[sourceSlot._index];
+		fishList[sourceSlot._index] = tempFish;
+
+		// 3. Mettre à jour l'affichage visuel des deux slots
+		this.Setup(fishList[this._index], this._index);
+		sourceSlot.Setup(fishList[sourceSlot._index], sourceSlot._index);
 	}
 }

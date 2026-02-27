@@ -1,9 +1,10 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1770766042
+::res://::1772219058
 MainMenu.cs::CSharpScript::7356922913448755251::1764337247::0::1::::<>Control<><>0<>0<><>::
 main_menu.tscn::PackedScene::474457399962308919::1764340308::0::1::::<><><>0<>0<><>::uid://dc20pfa5tvh5d::::res://MainMenu.cs<>uid://bn0hux37wc0rg::::res://PlayerData.cs
 Paper sunny.md::TextFile::-1::1764319540::0::1::::<><><>0<>0<><>::
 PlayerData.cs::CSharpScript::3350947082441497628::1767638722::0::1::::<>Node<><>0<>0<><>::
+README.md::TextFile::-1::1770766270::0::1::::<><><>0<>0<><>::
 ::res://Assets/::1763472594
 Sunny Pixels.png::CompressedTexture2D::8406257073810478090::1763039608::1763039608::1::::<><><>0<>0<>8d8442ab47e2644be49aa31534f7ae75<>res://.godot/imported/Sunny Pixels.png-3eee4a6e51131af8e61c9df790433b6a.ctex::
 ::res://Assets/InventoryAssets/::1764318257
@@ -18,10 +19,10 @@ FishDataBase.cs::CSharpScript::5066729634010635982::1767548993::0::1::::<><><>0<
 ::res://Game/::1767639372
 FishingGame.cs::CSharpScript::9000189982919425869::1767638700::0::1::::<>Control<><>0<>0<><>::
 FishingGame.tscn::PackedScene::8817188810047721044::1767639372::0::1::::<><><>0<>0<><>::uid://d1h02xcnaycg0::::res://Game/FishingGame.cs
-::res://Inventory/::1768851390
+::res://Inventory/::1770913493
 Inventory.cs::CSharpScript::1702172580938824859::1768851137::0::1::::<>Control<><>0<>0<><>::
-Inventory.tscn::PackedScene::7977906927975883088::1768851390::0::1::::<><><>0<>0<><>::uid://yisse8h7srx0::::res://Inventory/Inventory.cs
-InventorySlot.cs::CSharpScript::2587037347349422421::1768850708::0::1::::<><><>0<>0<><>::
+Inventory.tscn::PackedScene::7977906927975883088::1770913493::0::1::::<><><>0<>0<><>::uid://yisse8h7srx0::::res://Inventory/Inventory.cs
+InventorySlot.cs::CSharpScript::2587037347349422421::1770912004::0::1::::<>TextureRect<><>0<>0<><>::
 InventorySlot.tscn::PackedScene::1896730230914236995::1768850708::0::1::::<><><>0<>0<><>::uid://bc4gek8dx56rx::::res://Inventory/InventorySlot.cs
 ::res://Map/::1767549162
 MapScene.tscn::PackedScene::4315744716850112220::1767549162::0::1::::<><><>0<>0<><>::uid://bx1cwovpy25ib::::res://Map/MapScript.cs<>uid://bn0hux37wc0rg::::res://PlayerData.cs

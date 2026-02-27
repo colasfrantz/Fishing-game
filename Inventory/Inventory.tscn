@@ -15,8 +15,8 @@ script = ExtResource("1_objvx")
 layout_mode = 0
 offset_left = 17.0
 offset_top = 30.0
-offset_right = 150.0
-offset_bottom = 80.0
+offset_right = 217.0
+offset_bottom = 318.0
 
 [node name="MyInventory" type="Label" parent="VBoxContainer"]
 layout_mode = 2
@@ -27,5 +27,9 @@ text = "My Inventory
 layout_mode = 2
 text = "Back"
 
-[node name="Grid" type="GridContainer" parent="VBoxContainer"]
+[node name="ScrollContainer" type="ScrollContainer" parent="VBoxContainer"]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+
+[node name="Grid" type="GridContainer" parent="VBoxContainer/ScrollContainer"]
 layout_mode = 2
