@@ -15,8 +15,8 @@ script = ExtResource("1_objvx")
 layout_mode = 0
 offset_left = 17.0
 offset_top = 30.0
-offset_right = 217.0
-offset_bottom = 318.0
+offset_right = 1138.0
+offset_bottom = 635.0
 
 [node name="MyInventory" type="Label" parent="VBoxContainer"]
 layout_mode = 2
