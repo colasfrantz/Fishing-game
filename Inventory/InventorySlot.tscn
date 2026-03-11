@@ -1,15 +1,13 @@
 [gd_scene load_steps=4 format=3 uid="uid://2a14tqehot2b"]
 
 [ext_resource type="Script" uid="uid://bb3v5smtonogg" path="res://Inventory/InventorySlot.cs" id="1_0c1ht"]
-[ext_resource type="Texture2D" uid="uid://punarnwnnjlu" path="res://Assets/Sprites/backslot.png" id="1_1dltb"]
+[ext_resource type="Texture2D" uid="uid://punarnwnnjlu" path="res://Assets/InventoryAssets/backslot.png" id="2_0c1ht"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0c1ht"]
-bg_color = Color(0.7921569, 0.5254902, 0.42352942, 0.14901961)
 border_width_left = 2
 border_width_top = 2
 border_width_right = 2
 border_width_bottom = 2
-border_color = Color(0.48235294, 0.3019608, 0.18431373, 0.25490198)
 corner_radius_top_left = 5
 corner_radius_top_right = 5
 corner_radius_bottom_right = 5
@@ -23,7 +21,7 @@ script = ExtResource("1_0c1ht")
 
 [node name="backslot" type="TextureRect" parent="."]
 layout_mode = 2
-texture = ExtResource("1_1dltb")
+texture = ExtResource("2_0c1ht")
 
 [node name="FishIcon" type="TextureRect" parent="."]
 layout_mode = 2

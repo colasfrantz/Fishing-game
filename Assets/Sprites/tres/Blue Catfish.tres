@@ -1,7 +1,9 @@
-[gd_resource type="Resource" script_class="FishData" load_steps=2 format=3 uid="uid://bm7xto26wdv3f"]
+[gd_resource type="Resource" script_class="FishData" load_steps=3 format=3 uid="uid://bm7xto26wdv3f"]
 
+[ext_resource type="Texture2D" uid="uid://d3fdg0pedeull" path="res://Assets/Sprites/AtlanticCod.png" id="1_o54w8"]
 [ext_resource type="Script" uid="uid://qb045fydfqs6" path="res://FishData/FishData.cs" id="1_xjrht"]
 
 [resource]
 script = ExtResource("1_xjrht")
+Image = ExtResource("1_o54w8")
 metadata/_custom_type_script = "uid://qb045fydfqs6"

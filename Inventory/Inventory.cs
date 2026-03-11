@@ -13,29 +13,20 @@ public partial class Inventory : Control
 		_menu = GetNode<Button>("Menu");
 		
 		_menu.Pressed += OnMenuPressed;
-		DisplayInventory();
+		UpdateDisplay();
 	}
 
-	public void DisplayInventory()
+	public void UpdateDisplay()
 	{
-		// On vide la grille
-		foreach (Node child in _grid.GetChildren()) child.QueueFree();
-
-		var caughtFishes = PlayerData.Instance.CaughtFishes;
-
-		// On crée toujours 20 cases (ton maximum)
-		for (int i = 0; i < 20; i++)
-		{
-			var slot = SlotScene.Instantiate<InventorySlot>();
-			_grid.AddChild(slot);
-
-			if (i < caughtFishes.Count)
-			{
-				slot.Display(caughtFishes[i], i);
-			}
-			else
-			{
-				slot.Display(null, i); // Case vide
+		var fishes = PlayerData.Instance.CaughtFishes;
+		var slots = _grid.GetChildren();
+		
+		for(int i=0; i<slots.Count; i++){
+			if(slots[i] is InventorySlot slot){
+				if (i < fishes.Count)
+				{
+					slot.Display(fishes[i], i);
+				}
 			}
 		}
 	}

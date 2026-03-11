@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://g03ikep4xkix"]
+[gd_scene load_steps=4 format=3 uid="uid://g03ikep4xkix"]
 
 [ext_resource type="Script" uid="uid://dc20pfa5tvh5d" path="res://MainMenu.cs" id="1_j73po"]
 [ext_resource type="Script" uid="uid://bn0hux37wc0rg" path="res://PlayerData.cs" id="2_7vrkn"]
+[ext_resource type="Texture2D" uid="uid://8thaqlrmy4ae" path="res://Assets/Sprites/Main_Back.png" id="2_fu7sn"]
 
 [node name="MainMenu" type="Control"]
 layout_mode = 3
@@ -15,6 +16,12 @@ offset_bottom = -1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_j73po")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 1152.0
+offset_bottom = 648.0
+texture = ExtResource("2_fu7sn")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 layout_mode = 1

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://punarnwnnjlu"
-path="res://.godot/imported/backslot.png-7717568428358a96843dde2c577925d8.ctex"
+uid="uid://8thaqlrmy4ae"
+path="res://.godot/imported/Main_Back.png-b8b29fb85c680a34a3762a80665bf797.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/backslot.png"
-dest_files=["res://.godot/imported/backslot.png-7717568428358a96843dde2c577925d8.ctex"]
+source_file="res://Assets/Sprites/Main_Back.png"
+dest_files=["res://.godot/imported/Main_Back.png-b8b29fb85c680a34a3762a80665bf797.ctex"]
 
 [params]
 

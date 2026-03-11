@@ -15,23 +15,83 @@ SlotScene = ExtResource("2_xjbm4")
 
 [node name="ColorRect" type="ColorRect" parent="."]
 layout_mode = 0
-offset_left = 134.0
-offset_top = 191.0
-offset_right = 1034.0
-offset_bottom = 591.0
+offset_left = 40.0
+offset_top = 305.0
+offset_right = 445.0
+offset_bottom = 618.0
 color = Color(0.20660737, 0.13324863, 0.070688345, 1)
 
 [node name="ScrollContainer" type="ScrollContainer" parent="."]
 custom_minimum_size = Vector2(350, 300)
 layout_mode = 0
-offset_left = 132.0
-offset_top = 192.0
-offset_right = 1032.0
-offset_bottom = 592.0
+offset_left = 70.0
+offset_top = 317.0
+offset_right = 440.0
+offset_bottom = 617.0
 
 [node name="Grid" type="GridContainer" parent="ScrollContainer"]
 layout_mode = 2
 columns = 5
+
+[node name="InventorySlot" parent="ScrollContainer/Grid" instance=ExtResource("2_xjbm4")]
+layout_mode = 2
+
+[node name="InventorySlot2" parent="ScrollContainer/Grid" instance=ExtResource("2_xjbm4")]
+layout_mode = 2
+
+[node name="InventorySlot3" parent="ScrollContainer/Grid" instance=ExtResource("2_xjbm4")]
+layout_mode = 2
+
+[node name="InventorySlot4" parent="ScrollContainer/Grid" instance=ExtResource("2_xjbm4")]
+layout_mode = 2
+
+[node name="InventorySlot5" parent="ScrollContainer/Grid" instance=ExtResource("2_xjbm4")]
+layout_mode = 2
+
+[node name="InventorySlot6" parent="ScrollContainer/Grid" instance=ExtResource("2_xjbm4")]
+layout_mode = 2
+
+[node name="InventorySlot7" parent="ScrollContainer/Grid" instance=ExtResource("2_xjbm4")]
+layout_mode = 2
+
+[node name="InventorySlot8" parent="ScrollContainer/Grid" instance=ExtResource("2_xjbm4")]
+layout_mode = 2
+
+[node name="InventorySlot9" parent="ScrollContainer/Grid" instance=ExtResource("2_xjbm4")]
+layout_mode = 2
+
+[node name="InventorySlot10" parent="ScrollContainer/Grid" instance=ExtResource("2_xjbm4")]
+layout_mode = 2
+
+[node name="InventorySlot11" parent="ScrollContainer/Grid" instance=ExtResource("2_xjbm4")]
+layout_mode = 2
+
+[node name="InventorySlot12" parent="ScrollContainer/Grid" instance=ExtResource("2_xjbm4")]
+layout_mode = 2
+
+[node name="InventorySlot13" parent="ScrollContainer/Grid" instance=ExtResource("2_xjbm4")]
+layout_mode = 2
+
+[node name="InventorySlot14" parent="ScrollContainer/Grid" instance=ExtResource("2_xjbm4")]
+layout_mode = 2
+
+[node name="InventorySlot15" parent="ScrollContainer/Grid" instance=ExtResource("2_xjbm4")]
+layout_mode = 2
+
+[node name="InventorySlot16" parent="ScrollContainer/Grid" instance=ExtResource("2_xjbm4")]
+layout_mode = 2
+
+[node name="InventorySlot17" parent="ScrollContainer/Grid" instance=ExtResource("2_xjbm4")]
+layout_mode = 2
+
+[node name="InventorySlot18" parent="ScrollContainer/Grid" instance=ExtResource("2_xjbm4")]
+layout_mode = 2
+
+[node name="InventorySlot19" parent="ScrollContainer/Grid" instance=ExtResource("2_xjbm4")]
+layout_mode = 2
+
+[node name="InventorySlot20" parent="ScrollContainer/Grid" instance=ExtResource("2_xjbm4")]
+layout_mode = 2
 
 [node name="My Inventory" type="Label" parent="."]
 layout_mode = 0

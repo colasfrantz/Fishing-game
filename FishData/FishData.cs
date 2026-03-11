@@ -12,8 +12,7 @@ public enum FishRarity
 [GlobalClass]
 public partial class FishData : Resource
 {
-	
-	public string Name { get; set;}
+	public string Name;
 	public float Weight { get; set;}
 	public float Length  { get; set;}
 	public string Color { get; set;}
