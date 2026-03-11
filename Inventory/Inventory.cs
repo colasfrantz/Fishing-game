@@ -1,55 +1,47 @@
 using Godot;
-using System;
+using System.Collections.Generic;
 
 public partial class Inventory : Control
 {
-	private Button _menu;
+	[Export] public PackedScene SlotScene;
 	private GridContainer _grid;
-	
-	// Il te faudra une référence vers la scène du slot qu'on a créé étape 3
-	// Charge-le dans l'inspecteur ou via le chemin
-	private PackedScene _slotScene = GD.Load<PackedScene>("res://Inventory/InventorySlot.tscn"); // Vérifie le chemin !
+	private Button _menu;
 
 	public override void _Ready()
 	{
-		_menu = GetNode<Button>("VBoxContainer/Menu");
-		// Récupère ton GridContainer. Adapte le chemin selon ta scène.
-		_grid = GetNode<GridContainer>("VBoxContainer/Grid"); 
+		_grid = GetNode<GridContainer>("VBoxContainer/ScrollContainer/Grid");
+		_menu = GetNode<Button>("Menu");
 		
 		_menu.Pressed += OnMenuPressed;
-
 		DisplayInventory();
 	}
 
-	private void DisplayInventory()
+	public void DisplayInventory()
 	{
-		// 1. Nettoyer l'existant (au cas où)
-		foreach (Node child in _grid.GetChildren())
-		{
-			child.QueueFree();
-		}
+		// On vide la grille
+		foreach (Node child in _grid.GetChildren()) child.QueueFree();
 
-		// 2. Configurer la grille
-		_grid.Columns = 5; // Par exemple, 5 poissons par ligne
+		var caughtFishes = PlayerData.Instance.CaughtFishes;
 
-		// 3. Créer un slot pour chaque poisson
-		var fishes = PlayerData.Instance.CaughtFishes;
-		for (int i = 0; i < fishes.Count; i++)
+		// On crée toujours 20 cases (ton maximum)
+		for (int i = 0; i < 20; i++)
 		{
-			var fishData = fishes[i];
-			
-			// Instancier le slot
-			InventorySlot newSlot = _slotScene.Instantiate<InventorySlot>();
-			_grid.AddChild(newSlot);
-			
-			// Configurer le slot
-			newSlot.Setup(fishData, i);
+			var slot = SlotScene.Instantiate<InventorySlot>();
+			_grid.AddChild(slot);
+
+			if (i < caughtFishes.Count)
+			{
+				slot.Display(caughtFishes[i], i);
+			}
+			else
+			{
+				slot.Display(null, i); // Case vide
+			}
 		}
 	}
-
-	private void OnMenuPressed()
-	{
-		GD.Print("Menu");
+	
+	public void OnMenuPressed(){
+		GD.Print("Going back to the menu !");
 		GetTree().ChangeSceneToFile("res://main_menu.tscn");
 	}
 }

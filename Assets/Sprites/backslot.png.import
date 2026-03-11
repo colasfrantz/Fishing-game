@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d3fdg0pedeull"
-path="res://.godot/imported/Fish1.png-b63f7e299da7cc6a2975a9ef18f2a74d.ctex"
+uid="uid://punarnwnnjlu"
+path="res://.godot/imported/backslot.png-7717568428358a96843dde2c577925d8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/Fish1.png"
-dest_files=["res://.godot/imported/Fish1.png-b63f7e299da7cc6a2975a9ef18f2a74d.ctex"]
+source_file="res://Assets/Sprites/backslot.png"
+dest_files=["res://.godot/imported/backslot.png-7717568428358a96843dde2c577925d8.ctex"]
 
 [params]
 

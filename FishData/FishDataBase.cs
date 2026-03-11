@@ -26,7 +26,6 @@ public static class FishDataBase
 		new FishData("Atlantic Mahi Mahi", "Mahimahi", 40.0f, 2.0f, "", FishRarity.Uncommon ,"Wild"),
 		new FishData("Red Tuna", "Tuna", 60f, 2f, "Blue", FishRarity.Epic, "Strong"),
 		new FishData("Crimson Marlin", "Marlin", 45f, 7f, "Red", FishRarity.Epic, "Furious"),
-		new FishData("Example", "Example", 45f, 7f, "Red", FishRarity.Epic, "Calm"),
 		new FishData("The Leviathan", "Unknown", 3000f, 15.0f, "Black", FishRarity.Legendary ,"Furious"),
 		new FishData("The Storm Serpent", "Serpent", 900f, 12f, "Dark Blue", FishRarity.Legendary, "Strong"),
 		new FishData("The Wise Example", "Wise Example", 900f, 12f, "Dark Blue", FishRarity.Legendary, "Sage"),

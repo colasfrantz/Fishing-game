@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://dlws7xrp0mnw7"]
+[gd_scene load_steps=3 format=3 uid="uid://dlws7xrp0mnw7"]
 
 [ext_resource type="Script" uid="uid://yisse8h7srx0" path="res://Inventory/Inventory.cs" id="1_objvx"]
+[ext_resource type="PackedScene" uid="uid://2a14tqehot2b" path="res://Inventory/InventorySlot.tscn" id="2_xjbm4"]
 
 [node name="Inventory" type="Control"]
 layout_mode = 3
@@ -10,27 +11,40 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_objvx")
+SlotScene = ExtResource("2_xjbm4")
 
-[node name="VBoxContainer" type="VBoxContainer" parent="."]
+[node name="ColorRect" type="ColorRect" parent="."]
 layout_mode = 0
-offset_left = 17.0
-offset_top = 30.0
-offset_right = 1138.0
-offset_bottom = 635.0
+offset_left = 134.0
+offset_top = 191.0
+offset_right = 1034.0
+offset_bottom = 591.0
+color = Color(0.20660737, 0.13324863, 0.070688345, 1)
 
-[node name="MyInventory" type="Label" parent="VBoxContainer"]
-layout_mode = 2
-text = "My Inventory
-"
+[node name="ScrollContainer" type="ScrollContainer" parent="."]
+custom_minimum_size = Vector2(350, 300)
+layout_mode = 0
+offset_left = 132.0
+offset_top = 192.0
+offset_right = 1032.0
+offset_bottom = 592.0
 
-[node name="Menu" type="Button" parent="VBoxContainer"]
-layout_mode = 2
-text = "Back"
-
-[node name="ScrollContainer" type="ScrollContainer" parent="VBoxContainer"]
-custom_minimum_size = Vector2(400, 400)
-layout_mode = 2
-
-[node name="Grid" type="GridContainer" parent="VBoxContainer/ScrollContainer"]
+[node name="Grid" type="GridContainer" parent="ScrollContainer"]
 layout_mode = 2
 columns = 5
+
+[node name="My Inventory" type="Label" parent="."]
+layout_mode = 0
+offset_left = 517.0
+offset_top = 20.0
+offset_right = 620.0
+offset_bottom = 43.0
+text = "My Inventory"
+
+[node name="Menu" type="Button" parent="."]
+layout_mode = 0
+offset_left = 57.0
+offset_top = 30.0
+offset_right = 110.0
+offset_bottom = 61.0
+text = "Menu"

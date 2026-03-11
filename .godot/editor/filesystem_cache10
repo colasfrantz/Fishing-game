@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1773095917
+::res://::1773256332
 MainMenu.cs::CSharpScript::7356922913448755251::1764337247::0::1::::<>Control<><>0<>0<><>::
 main_menu.tscn::PackedScene::474457399962308919::1773091475::0::1::::<><><>0<>0<><>::uid://dc20pfa5tvh5d::::res://MainMenu.cs<>uid://bn0hux37wc0rg::::res://PlayerData.cs
 Paper sunny.md::TextFile::-1::1764319540::0::1::::<><><>0<>0<><>::
@@ -10,22 +10,45 @@ Sunny Pixels.png::CompressedTexture2D::8406257073810478090::1763039608::17630396
 ::res://Assets/InventoryAssets/::1764318257
 backslot.png::CompressedTexture2D::8843023581238822132::1763329451::1764318257::1::::<><><>0<>0<>8f2aff887763a885f7d23efaedd1d36f<>res://.godot/imported/backslot.png-c4ceb8b67417cf836ac3a594e4277c68.ctex::
 bakcsInventory.png::CompressedTexture2D::5215477903629333146::1763329407::1764318257::1::::<><><>0<>0<>2f75de061ebb9386fcfd077ee96cb3a6<>res://.godot/imported/bakcsInventory.png-0c02acf01bf363e0239d425ade22f518.ctex::
-::res://Assets/Sprites/::1773091427
-Atlantic Cod.tres::Resource/FishData::3025954061452823830::1763039608::0::1::::<><><>0<>0<><>::res://FishData/FishData.cs
+::res://Assets/Sprites/::1773100840
+AtlanticCod.png::CompressedTexture2D::9135065763897988833::1773089636::1773099134::1::::<><><>0<>0<>a3ce0cd0ccd8ded794ea9f152763100b<>res://.godot/imported/AtlanticCod.png-a869f672a95c8d96e93223a61bbf2212.ctex::
 back1.png::CompressedTexture2D::6000633656533625117::1773091268::1773091405::1::::<><><>0<>0<>00a38db7262507a2d5f35f002aaf4f2e<>res://.godot/imported/back1.png-166dec115f3c66d4c23b45836de30657.ctex::
-Fish1.png::CompressedTexture2D::9135065763897988833::1773089636::1773091405::1::::<><><>0<>0<>f12634313614431cce4b64ab71df6018<>res://.godot/imported/Fish1.png-b63f7e299da7cc6a2975a9ef18f2a74d.ctex::
+backslot.png::CompressedTexture2D::1094910444554528614::1773100836::1773100840::1::::<><><>0<>0<>d8914d9630d727100dd79a50f0905f3e<>res://.godot/imported/backslot.png-7717568428358a96843dde2c577925d8.ctex::
 Fish2.png::CompressedTexture2D::6526498275068103525::1773089834::1773091405::1::::<><><>0<>0<>ecf70ad33a2e9dcf078510c9d9052e3e<>res://.godot/imported/Fish2.png-ae9a2490f8bd9629b8bfd6ba7ea2ea74.ctex::
-::res://FishData/::1767548993
-FishData.cs::CSharpScript::1126657173324182747::1763039608::0::1::::FishData<>Resource<><>0<>0<><>::
-FishDataBase.cs::CSharpScript::5066729634010635982::1767548993::0::1::::<><><>0<>0<><>::
-::res://Game/::1767639372
+::res://Assets/Sprites/tres/::1773099140
+Atlantic Cod.tres::Resource/FishData::3025954061452823830::1773099140::0::1::::<><><>0<>0<><>::uid://d3fdg0pedeull::::res://Assets/Sprites/AtlanticCod.png<>uid://qb045fydfqs6::::res://FishData/FishData.cs
+Atlantic Mahi Mahi.tres::Resource/FishData::6325394746680568721::1773099091::0::1::::<><><>0<>0<><>::uid://qb045fydfqs6::::res://FishData/FishData.cs
+Atlantic Salmon.tres::Resource/FishData::3996882553269175722::1773098706::0::1::::<><><>0<>0<><>::uid://qb045fydfqs6::::res://FishData/FishData.cs
+Atlantic Sturgeon.tres::Resource/FishData::4071580497665634776::1773098823::0::1::::<><><>0<>0<><>::uid://qb045fydfqs6::::res://FishData/FishData.cs
+Azure Snapper.tres::Resource/FishData::485326242200731861::1773098869::0::1::::<><><>0<>0<><>::uid://qb045fydfqs6::::res://FishData/FishData.cs
+Bass.tres::Resource/FishData::3988838476263763729::1773098813::0::1::::<><><>0<>0<><>::uid://qb045fydfqs6::::res://FishData/FishData.cs
+Blue Catfish.tres::Resource/FishData::3296178094871886121::1773098754::0::1::::<><><>0<>0<><>::uid://qb045fydfqs6::::res://FishData/FishData.cs
+Clownfish.tres::Resource/FishData::4430048021352078370::1773098763::0::1::::<><><>0<>0<><>::uid://qb045fydfqs6::::res://FishData/FishData.cs
+Copper Sunfish.tres::Resource/FishData::6000278757659171083::1773098879::0::1::::<><><>0<>0<><>::uid://qb045fydfqs6::::res://FishData/FishData.cs
+Crimson Marlin.tres::Resource/FishData::3462573945748827679::1773098910::0::1::::<><><>0<>0<><>::uid://qb045fydfqs6::::res://FishData/FishData.cs
+Elder Carp.tres::Resource/FishData::832704210022486064::1773098850::0::1::::<><><>0<>0<><>::uid://qb045fydfqs6::::res://FishData/FishData.cs
+Golden Carp.tres::Resource/FishData::3541625017505874980::1773098723::0::1::::<><><>0<>0<><>::uid://qb045fydfqs6::::res://FishData/FishData.cs
+Green Perch.tres::Resource/FishData::5890683385678750179::1773098795::0::1::::<><><>0<>0<><>::uid://qb045fydfqs6::::res://FishData/FishData.cs
+Marsh Minnow.tres::Resource/FishData::1109767750553640278::1773098806::0::1::::<><><>0<>0<><>::uid://qb045fydfqs6::::res://FishData/FishData.cs
+Pond Bream.tres::Resource/FishData::1376269654544552929::1773098787::0::1::::<><><>0<>0<><>::uid://qb045fydfqs6::::res://FishData/FishData.cs
+Red Tuna.tres::Resource/FishData::7165852585241424785::1773098901::0::1::::<><><>0<>0<><>::uid://qb045fydfqs6::::res://FishData/FishData.cs
+Spotted Pike.tres::Resource/FishData::2613917668195122621::1773098861::0::1::::<><><>0<>0<><>::uid://qb045fydfqs6::::res://FishData/FishData.cs
+Storm Barracuda.tres::Resource/FishData::2495883997470973232::1773098843::0::1::::<><><>0<>0<><>::uid://qb045fydfqs6::::res://FishData/FishData.cs
+The Leviathan.tres::Resource/FishData::386548420742982254::1773098924::0::1::::<><><>0<>0<><>::uid://qb045fydfqs6::::res://FishData/FishData.cs
+The Storm Serpent.tres::Resource/FishData::837771673848369597::1773098937::0::1::::<><><>0<>0<><>::uid://qb045fydfqs6::::res://FishData/FishData.cs
+The Wise Example.tres::Resource/FishData::3759310893233116600::1773098948::0::1::::<><><>0<>0<><>::uid://qb045fydfqs6::::res://FishData/FishData.cs
+Trout.tres::Resource/FishData::3224090349200483916::1773098835::0::1::::<><><>0<>0<><>::uid://qb045fydfqs6::::res://FishData/FishData.cs
+::res://FishData/::1773099091
+FishData.cs::CSharpScript::1126657173324182747::1773099091::0::1::::FishData<>Resource<><>0<>0<><>::
+FishDataBase.cs::CSharpScript::5066729634010635982::1773098951::0::1::::<><><>0<>0<><>::
+::res://Game/::1773099393
 FishingGame.cs::CSharpScript::9000189982919425869::1767638700::0::1::::<>Control<><>0<>0<><>::
-FishingGame.tscn::PackedScene::8817188810047721044::1767639372::0::1::::<><><>0<>0<><>::uid://d1h02xcnaycg0::::res://Game/FishingGame.cs
-::res://Inventory/::1773087965
+FishingGame.tscn::PackedScene::8817188810047721044::1773099393::0::1::::<><><>0<>0<><>::uid://d1h02xcnaycg0::::res://Game/FishingGame.cs
+::res://Inventory/::1773100933
 Inventory.cs::CSharpScript::1702172580938824859::1768851137::0::1::::<>Control<><>0<>0<><>::
 Inventory.tscn::PackedScene::7977906927975883088::1773087965::0::1::::<><><>0<>0<><>::uid://yisse8h7srx0::::res://Inventory/Inventory.cs
 InventorySlot.cs::CSharpScript::2515741699950514482::1772220324::0::1::::<>TextureRect<><>0<>0<><>::
-InventorySlot.tscn::PackedScene::1896730230914236995::1772220364::0::1::::<><><>0<>0<><>::uid://bb3v5smtonogg::::res://Inventory/InventorySlot.cs
+InventorySlot.tscn::PackedScene::1896730230914236995::1773100933::0::1::::<><><>0<>0<><>::uid://punarnwnnjlu::::res://Assets/Sprites/backslot.png
 ::res://Map/::1767549162
 MapScene.tscn::PackedScene::4315744716850112220::1767549162::0::1::::<><><>0<>0<><>::uid://bx1cwovpy25ib::::res://Map/MapScript.cs<>uid://bn0hux37wc0rg::::res://PlayerData.cs
 MapScript.cs::CSharpScript::4054599398907335041::1767549162::0::1::::<>Control<><>0<>0<><>::

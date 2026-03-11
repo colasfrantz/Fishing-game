@@ -20,7 +20,7 @@ public partial class FishData : Resource
 	public FishRarity Rarity { get; set;}
 	public string Temperament {get;set;}
 	public string Species {get;set;}
-	public Texture2D  Image {get;set;} 
+	[Export] public Texture2D  Image {get;set;} 
 	public string Descritpion {get;set;}
 	
 	public FishData (string name, string species, float weight, float length, string color, FishRarity rarity, string temperament)

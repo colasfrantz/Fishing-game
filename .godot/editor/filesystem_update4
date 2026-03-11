@@ -1,0 +1,12 @@
+res://Inventory/InventorySlot.tscn
+res://Inventory/InventorySlot.cs
+res://Inventory/Inventory.tscn
+res://Inventory/Inventory.cs
+res://Game/FishingGame.tscn
+res://Game/FishingGame.cs
+res://PlayerData.cs
+res://Map/MapScript.cs
+res://MainMenu.cs
+res://FishData/FishData.cs
+res://Winning/WinningScene.cs
+res://main_menu.tscn

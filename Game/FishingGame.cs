@@ -222,7 +222,15 @@ public partial class FishingGame : Control
 	{
 		_phase = Phase.Win;
 		GD.Print($"You caught a {_currentFish.Name}, a {_currentFish.Rarity} fish, of {_currentFish.Weight}KG, Temperament : {_currentFish.Temperament}.");
-		PlayerData.Instance.AddFish(_currentFish);
+		if (PlayerData.Instance.CaughtFishes.Count < 20)
+		{
+			PlayerData.Instance.AddFish(_currentFish);
+			GD.Print("Poisson ajouté ! Total : " + PlayerData.Instance.CaughtFishes.Count);
+		}
+		else
+		{
+			GD.Print("Inventaire plein !");
+		}
 		GetTree().ChangeSceneToFile("res://Winning/WinningScene.tscn");
 	}
 	
