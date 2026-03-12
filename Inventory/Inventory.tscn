@@ -95,10 +95,10 @@ layout_mode = 2
 
 [node name="My Inventory" type="Label" parent="."]
 layout_mode = 0
-offset_left = 517.0
-offset_top = 20.0
-offset_right = 620.0
-offset_bottom = 43.0
+offset_left = 200.0
+offset_top = 256.0
+offset_right = 303.0
+offset_bottom = 279.0
 text = "My Inventory"
 
 [node name="Menu" type="Button" parent="."]
@@ -108,3 +108,12 @@ offset_top = 30.0
 offset_right = 110.0
 offset_bottom = 61.0
 text = "Menu"
+
+[node name="stat" type="Button" parent="."]
+layout_mode = 0
+offset_left = 546.0
+offset_top = 114.0
+offset_right = 596.0
+offset_bottom = 168.0
+text = "stats
+"

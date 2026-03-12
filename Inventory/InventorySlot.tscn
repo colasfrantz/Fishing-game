@@ -19,11 +19,11 @@ offset_bottom = 64.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_0c1ht")
 script = ExtResource("1_0c1ht")
 
-[node name="backslot" type="TextureRect" parent="."]
-layout_mode = 2
-texture = ExtResource("2_0c1ht")
-
 [node name="FishIcon" type="TextureRect" parent="."]
 layout_mode = 2
 expand_mode = 1
 stretch_mode = 5
+
+[node name="backslot" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("2_0c1ht")

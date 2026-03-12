@@ -16,28 +16,32 @@ public partial class InventorySlot : PanelContainer
 	{
 		_index = index;
 		_currentFish = fish;
-		 if (fish !=null && fish.Image!=null){
+
+		if (fish != null && fish.Image != null)
+		{
 			_fishIcon.Texture = fish.Image;
 			_fishIcon.Visible = true;
 		}
-		else{
+		else
+		{
 			_fishIcon.Texture = null;
-			_fishIcon.Visible = false;
+			_fishIcon.Visible = false; // On cache l'image si la case est vide
 		}
 	}
+
+	// --- DRAG AND DROP ---
 
 	public override Variant _GetDragData(Vector2 atPosition)
 	{
 		if (_currentFish == null) return default;
 
-		// Aperçu visuel
 		var preview = new TextureRect();
 		preview.Texture = _fishIcon.Texture;
 		preview.ExpandMode = TextureRect.ExpandModeEnum.IgnoreSize;
 		preview.Size = new Vector2(64, 64);
 		SetDragPreview(preview);
 
-		return this; // On envoie le slot lui-même
+		return this;
 	}
 
 	public override bool _CanDropData(Vector2 atPosition, Variant data)
@@ -50,13 +54,18 @@ public partial class InventorySlot : PanelContainer
 		var sourceSlot = data.Obj as InventorySlot;
 		if (sourceSlot == null) return;
 
-		// Échanger les données dans la liste globale
 		var fishList = PlayerData.Instance.CaughtFishes;
-		FishData temp = fishList[this._index];
-		fishList[this._index] = fishList[sourceSlot._index];
-		fishList[sourceSlot._index] = temp;
 
-		// Rafraîchir tout l'inventaire
-		GetNode<Inventory>("res://Inventory.tscn").UpdateDisplay();
+		// Sécurité pour éviter de crash si on glisse vers un index inexistant
+		if (_index < fishList.Count && sourceSlot._index < fishList.Count)
+		{
+			FishData temp = fishList[_index];
+			fishList[_index] = fishList[sourceSlot._index];
+			fishList[sourceSlot._index] = temp;
+
+			// On demande à l'inventaire parent de se rafraîchir
+			// On cherche le nœud Inventory dans la scène
+			GetTree().Root.FindChild("Inventory", true, false).Call("UpdateDisplay");
+		}
 	}
 }

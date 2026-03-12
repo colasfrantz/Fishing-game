@@ -1,5 +1,7 @@
 using Godot;
 using System;
+using System.Collections.Generic;
+using System.Linq;
 
 public partial class FishingGame : Control
 {
@@ -222,10 +224,10 @@ public partial class FishingGame : Control
 	{
 		_phase = Phase.Win;
 		GD.Print($"You caught a {_currentFish.Name}, a {_currentFish.Rarity} fish, of {_currentFish.Weight}KG, Temperament : {_currentFish.Temperament}.");
-		if (PlayerData.Instance.CaughtFishes.Count < 20)
+		if (PlayerData.Instance.CaughtFishes[19] == null)
 		{
 			PlayerData.Instance.AddFish(_currentFish);
-			GD.Print("Poisson ajouté ! Total : " + PlayerData.Instance.CaughtFishes.Count);
+			GD.Print("Poisson ajouté ! Total : " + PlayerData.Instance.CaughtFishes.Count(f => f != null));
 		}
 		else
 		{

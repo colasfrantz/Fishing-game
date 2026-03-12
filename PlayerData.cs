@@ -29,10 +29,14 @@ public partial class PlayerData : Node
 			if (CaughtFishes[i] == null)
 			{
 				CaughtFishes[i] = fish;
-				GD.Print($"Poisson {fish.Name} added at index {i}");
-				return;
+				GD.Print($"Succès ! Poisson ajouté à l'emplacement : {i}");
+				return; // On s'arrête ici
 			}
 		}
-		GD.Print("Inventaire plein !");
+		
+		// Ce message ne s'affichera que si les 20 cases sont vraiment remplies
+		GD.Print("Inventaire RÉELLEMENT plein !");
 	}
+	
+	public int GetFishCount() => CaughtFishes.Count(f => f != null);
 }
