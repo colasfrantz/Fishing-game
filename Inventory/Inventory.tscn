@@ -33,66 +33,6 @@ offset_bottom = 617.0
 layout_mode = 2
 columns = 5
 
-[node name="InventorySlot" parent="ScrollContainer/Grid" instance=ExtResource("2_xjbm4")]
-layout_mode = 2
-
-[node name="InventorySlot2" parent="ScrollContainer/Grid" instance=ExtResource("2_xjbm4")]
-layout_mode = 2
-
-[node name="InventorySlot3" parent="ScrollContainer/Grid" instance=ExtResource("2_xjbm4")]
-layout_mode = 2
-
-[node name="InventorySlot4" parent="ScrollContainer/Grid" instance=ExtResource("2_xjbm4")]
-layout_mode = 2
-
-[node name="InventorySlot5" parent="ScrollContainer/Grid" instance=ExtResource("2_xjbm4")]
-layout_mode = 2
-
-[node name="InventorySlot6" parent="ScrollContainer/Grid" instance=ExtResource("2_xjbm4")]
-layout_mode = 2
-
-[node name="InventorySlot7" parent="ScrollContainer/Grid" instance=ExtResource("2_xjbm4")]
-layout_mode = 2
-
-[node name="InventorySlot8" parent="ScrollContainer/Grid" instance=ExtResource("2_xjbm4")]
-layout_mode = 2
-
-[node name="InventorySlot9" parent="ScrollContainer/Grid" instance=ExtResource("2_xjbm4")]
-layout_mode = 2
-
-[node name="InventorySlot10" parent="ScrollContainer/Grid" instance=ExtResource("2_xjbm4")]
-layout_mode = 2
-
-[node name="InventorySlot11" parent="ScrollContainer/Grid" instance=ExtResource("2_xjbm4")]
-layout_mode = 2
-
-[node name="InventorySlot12" parent="ScrollContainer/Grid" instance=ExtResource("2_xjbm4")]
-layout_mode = 2
-
-[node name="InventorySlot13" parent="ScrollContainer/Grid" instance=ExtResource("2_xjbm4")]
-layout_mode = 2
-
-[node name="InventorySlot14" parent="ScrollContainer/Grid" instance=ExtResource("2_xjbm4")]
-layout_mode = 2
-
-[node name="InventorySlot15" parent="ScrollContainer/Grid" instance=ExtResource("2_xjbm4")]
-layout_mode = 2
-
-[node name="InventorySlot16" parent="ScrollContainer/Grid" instance=ExtResource("2_xjbm4")]
-layout_mode = 2
-
-[node name="InventorySlot17" parent="ScrollContainer/Grid" instance=ExtResource("2_xjbm4")]
-layout_mode = 2
-
-[node name="InventorySlot18" parent="ScrollContainer/Grid" instance=ExtResource("2_xjbm4")]
-layout_mode = 2
-
-[node name="InventorySlot19" parent="ScrollContainer/Grid" instance=ExtResource("2_xjbm4")]
-layout_mode = 2
-
-[node name="InventorySlot20" parent="ScrollContainer/Grid" instance=ExtResource("2_xjbm4")]
-layout_mode = 2
-
 [node name="My Inventory" type="Label" parent="."]
 layout_mode = 0
 offset_left = 200.0
