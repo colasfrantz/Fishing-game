@@ -1,0 +1,9 @@
+Sunny Days 🎣
+
+-  Mécanic de pêche comme elle l’est
+-  map, add places ?
+-  temps qui passe
+-  Monnaie system
+-  shop de cane a peche ou autre et pouvoir vendre les poissons
+-  inventaire (avec utilitaires genre la cane a peche et les poissons déja pecher)
+-  encyclopédie de tous les poissons déjà trouver et ceux qui restent.
