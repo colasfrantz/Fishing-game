@@ -1,15 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Tndz/ulkLbg=",
+  "dgSpecHash": "XIYuLUC6J54=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Frantz\\Desktop\\Pers. Projects\\Fishing-game\\Sunny - An expected journey.csproj",
+  "projectFilePath": "C:\\Users\\nicof\\OneDrive\\Bureau\\Pers. Projects\\Fishing-game\\Sunny - An expected journey.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Frantz\\.nuget\\packages\\godot.sourcegenerators\\4.5.1\\godot.sourcegenerators.4.5.1.nupkg.sha512",
-    "C:\\Users\\Frantz\\.nuget\\packages\\godotsharp\\4.5.1\\godotsharp.4.5.1.nupkg.sha512",
-    "C:\\Users\\Frantz\\.nuget\\packages\\godotsharpeditor\\4.5.1\\godotsharpeditor.4.5.1.nupkg.sha512",
-    "C:\\Users\\Frantz\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.22\\microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
-    "C:\\Users\\Frantz\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.22\\microsoft.windowsdesktop.app.ref.8.0.22.nupkg.sha512",
-    "C:\\Users\\Frantz\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.22\\microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512"
+    "C:\\Users\\nicof\\.nuget\\packages\\godot.sourcegenerators\\4.6.2\\godot.sourcegenerators.4.6.2.nupkg.sha512",
+    "C:\\Users\\nicof\\.nuget\\packages\\godotsharp\\4.6.2\\godotsharp.4.6.2.nupkg.sha512",
+    "C:\\Users\\nicof\\.nuget\\packages\\godotsharpeditor\\4.6.2\\godotsharpeditor.4.6.2.nupkg.sha512"
   ],
   "logs": []
 }

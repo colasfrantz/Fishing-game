@@ -1,1 +1,8 @@
-res://Map/MapScene.tscn
+res://FishData/FishData.cs
+res://Map/MapScript.cs
+res://Winning/WinningScene.cs
+res://Game/FishingGame.cs
+res://Inventory/InventorySlot.cs
+res://Inventory/Inventory.cs
+res://MainMenu.cs
+res://PlayerData.cs
